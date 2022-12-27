@@ -39,7 +39,7 @@ ul {
   font-size: 5rem;
   font-weight: 900;
   margin-right: auto;
-  
+
 }
 
 li {
@@ -144,14 +144,14 @@ hr {
 
 .item {
   display: flex;
- 
+
 }
 
 img {
   display: inline;
 }
 
-div > h1 {
+div>h1 {
   color: hsl(233, 8%, 79%);
   margin-left: .4em;
   font-size: 4rem;
