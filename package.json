@@ -1,0 +1,15 @@
+{
+  "name": "news-home-page",
+  "version": "1.0.0",
+  "description": "Simple news home page website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ade Aprianto",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "bootstrap": "^5.2.3"
+  }
+}

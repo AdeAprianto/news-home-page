@@ -1,0 +1,170 @@
+.attribution {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-size: 16px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+html {
+  width: 1440px;
+  font-size: 100%;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+nav {
+  width: auto;
+  margin: 1em;
+}
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#font-logo {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5rem;
+  font-weight: 900;
+  margin-right: auto;
+  
+}
+
+li {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 1.6em;
+  margin: 0 1rem;
+}
+
+.grid-container {
+  display: grid;
+  width: auto;
+  margin: 1em;
+  grid-template-rows: 500px 36px 250px;
+  grid-template-columns: 2fr 35px 2fr 33px 2fr;
+}
+
+strong {
+  display: block;
+  background-color: hsl(5, 85%, 63%);
+  padding: .2em;
+  color: hsl(36, 100%, 99%);
+  margin-top: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+aside {
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+}
+
+#heading-new {
+  color: hsl(35, 77%, 62%);
+  font-size: 3rem;
+}
+
+#image {
+  width: 208%;
+  height: 100%;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+p {
+  font-size: 15px;
+}
+
+#heading-title {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  align-self: stretch;
+  font-weight: 900;
+  font-size: 4em;
+  color: black;
+}
+
+#mission {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: hsl(236, 13%, 42%);
+  align-items: baseline;
+}
+
+#aside-info {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  padding: 1.5em;
+}
+
+.h2-heading {
+  font-size: 1.9rem;
+  margin-top: 30px;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.inner-p1 {
+  margin-top: 5px;
+  font-size: 1.6em;
+  color: hsl(236, 13%, 42%);
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 4em;
+  margin-left: 3em;
+}
+
+.item {
+  display: flex;
+ 
+}
+
+img {
+  display: inline;
+}
+
+div > h1 {
+  color: hsl(233, 8%, 79%);
+  margin-left: .4em;
+  font-size: 4rem;
+}
+
+.item-inner-h2 {
+  color: hsl(240, 100%, 5%);
+  margin-left: 1em;
+}
+
+.inner-p {
+  margin-left: 1em;
+  margin-top: 1em;
+  font-size: 1.6em;
+  color: hsl(236, 13%, 42%);
+}
